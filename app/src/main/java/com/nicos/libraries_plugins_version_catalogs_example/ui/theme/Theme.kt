@@ -1,4 +1,4 @@
-package com.nicos.libraries_plugin_version_catalogs_example.ui.theme
+package com.nicos.libraries_plugins_version_catalogs_example.ui.theme
 
 import android.app.Activity
 import android.os.Build

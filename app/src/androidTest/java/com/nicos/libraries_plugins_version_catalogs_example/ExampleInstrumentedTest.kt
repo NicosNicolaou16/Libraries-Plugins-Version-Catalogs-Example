@@ -1,4 +1,4 @@
-package com.nicos.libraries_plugin_version_catalogs_example
+package com.nicos.libraries_plugins_version_catalogs_example
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
