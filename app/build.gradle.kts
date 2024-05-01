@@ -8,6 +8,7 @@ plugins {
 android {
     namespace = "com.nicos.libraries_plugin_version_catalogs_example"
     compileSdk = 34
+    buildToolsVersion = "34.0.0"
 
     defaultConfig {
         applicationId = "com.nicos.libraries_plugin_version_catalogs_example"
@@ -49,16 +50,19 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
 
     //Architecture
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.swipe.refresh.layout)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     //Compose
+    implementation(libs.androidx.compose.compiler)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
