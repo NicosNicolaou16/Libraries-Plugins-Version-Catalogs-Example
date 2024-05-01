@@ -54,6 +54,8 @@ android {
 
 dependencies {
 
+    //My Library - https://github.com/NicosNicolaou16/ImagePickerAndroid
+    implementation(libs.image.picker.android)
     //Architecture
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -85,6 +87,9 @@ dependencies {
     implementation(libs.okHttp)
     //Gson
     implementation(libs.gson)
+    //Glide
+    implementation(libs.glide)
+    ksp(libs.glide.compier)
     //Coil
     implementation(libs.coil)
     //Coroutines

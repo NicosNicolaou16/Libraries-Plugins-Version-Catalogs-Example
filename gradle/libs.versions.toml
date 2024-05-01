@@ -17,6 +17,7 @@ roomVersion = "2.6.1"
 kspVersion = "1.9.23-1.0.20"
 retrofitVersion = "2.11.0"
 okHttpVersion = "4.12.0"
+glideVersion = "4.16.0"
 coilVersion = "2.6.0"
 coroutineVersion = "1.8.0"
 materialVersion = "1.11.0"
@@ -25,8 +26,11 @@ hiltCompilerVersion = "1.2.0"
 composeNavigationVersion = "2.7.7"
 swipeRefreshLayoutVersion = "1.1.0"
 gsonVersion = "2.10.1"
+imagePickerAndroid = "2.0.10"
 
 [libraries]
+# My Library - https://github.com/NicosNicolaou16/ImagePickerAndroid
+image-picker-android = { group = "com.github.NicosNicolaou16", name = "ImagePickerAndroid", version.ref = "imagePickerAndroid" }
 # Architecture
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appCompatVersion" }
@@ -59,6 +63,9 @@ retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", ver
 okHttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttpVersion" }
 # Gson
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersion" }
+# Glide
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glideVersion" }
+glide-compier = {group = "com.github.bumptech.glide", name = "glide", version.ref = "glideVersion"}
 # Coil
 coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilVersion" }
 # Coroutine
