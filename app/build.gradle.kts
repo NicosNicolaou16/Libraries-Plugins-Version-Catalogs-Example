@@ -43,7 +43,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.12"
+        kotlinCompilerExtensionVersion = "1.5.13"
     }
     packaging {
         resources {
@@ -58,9 +58,6 @@ dependencies {
     implementation(libs.image.picker.android)
     //Architecture
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.activity.ktx)
-    implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.swipe.refresh.layout)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     //Compose
@@ -76,6 +73,8 @@ dependencies {
     implementation(libs.androidx.compose.runtime)
     implementation(libs.androidx.compose.runtime.livedata)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.animation)
+    implementation(libs.androidx.foundation)
     //Room Database
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
@@ -87,9 +86,6 @@ dependencies {
     implementation(libs.okHttp)
     //Gson
     implementation(libs.gson)
-    //Glide
-    implementation(libs.glide)
-    ksp(libs.glide.compier)
     //Coil
     implementation(libs.coil)
     //Coroutines
@@ -101,6 +97,8 @@ dependencies {
     implementation(libs.dagger.android)
     ksp(libs.dagger.compiler)
     ksp(libs.hilt.compiler)
+    //Palette
+    implementation(libs.androidx.palette.ktx)
     //Unit Test
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
