@@ -10,7 +10,7 @@ Gradle version: 8.4.0 <br />
 
 ## Check my article
 
- <br />
+https://medium.com/@nicosnicolaou/migration-gradle-dependencies-to-version-catalogs-libs-versions-toms-part-3-ac3469155109 <br />
 
 # References
 
