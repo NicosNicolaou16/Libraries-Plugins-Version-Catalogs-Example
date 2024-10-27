@@ -8,13 +8,13 @@ plugins {
 
 android {
     namespace = "com.nicos.libraries_plugin_version_catalogs_example"
-    compileSdk = 34
-    buildToolsVersion = "34.0.0"
+    compileSdk = 35
+    buildToolsVersion = "35.0.0"
 
     defaultConfig {
         applicationId = "com.nicos.libraries_plugin_version_catalogs_example"
-        minSdk = 27
-        targetSdk = 34
+        minSdk = 28
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
