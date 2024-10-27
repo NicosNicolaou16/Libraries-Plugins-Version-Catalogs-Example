@@ -3,8 +3,8 @@ This project is an empty project and it is related to an article on Medium for t
 In this project, the Android Developer can find most of common libraries and plugins for you Android project.
 Check the article below
 
-Target SDK version: 34 <br />
-Minimum SDK version: 27 <br />
+Target SDK version: 35 <br />
+Minimum SDK version: 28 <br />
 Kotlin version: 2.0.21 <br />
 Gradle version: 8.7.1 <br />
 
