@@ -1,7 +1,5 @@
 # Libraries Plugins Version Catalogs Example
 
-Here’s a revised version of the paragraph:
-
 This project is an empty template designed to accompany an article on Medium about the new approach
 to managing dependencies—**Version Catalogs**. In this project, Android developers can find a
 collection of commonly used libraries and plugins for their Android projects. You can check out the
