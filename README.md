@@ -6,7 +6,7 @@ collection of commonly used libraries and plugins for their Android projects. Yo
 article below for more details.
 
 > [!IMPORTANT]  
-> Check my article :point_right: [Migration Gradle Dependencies to Version Catalogs - libs.versions.toms(Part 3) - Medium](https://medium.com/@nicosnicolaou/migration-gradle-dependencies-to-version-catalogs-libs-versions-toms-part-3-ac3469155109) :point_left: <br />
+> Check my article :point_right: [Migration Gradle Dependencies to Version Catalogs — libs.versions.toms(Part 3) - Medium](https://medium.com/@nicosnicolaou/migration-gradle-dependencies-to-version-catalogs-libs-versions-toms-part-3-ac3469155109) :point_left: <br />
 
 # Versioning
 
