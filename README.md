@@ -1,8 +1,12 @@
 # Libraries Plugins Version Catalogs Example
-This project is an empty project and it is related to an article on Medium for the new way of dependencies "Version Catalogs".
-In this project, the Android Developer can find most of common libraries and plugins for you Android project.
+
+This project is an empty project and it is related to an article on Medium for the new way of
+dependencies "Version Catalogs".
+In this project, the Android Developer can find most of common libraries and plugins for you Android
+project.
 Check the article below
 
+# Versioning
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
 Kotlin version: 2.1.0 <br />
