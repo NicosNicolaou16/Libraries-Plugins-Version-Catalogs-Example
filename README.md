@@ -13,7 +13,7 @@ article below for more details.
 Target SDK version: 35 <br />
 Minimum SDK version: 28 <br />
 Kotlin version: 2.1.0 <br />
-Gradle version: 8.7.3 <br />
+Gradle version: 8.8.0 <br />
 
 # References
 
