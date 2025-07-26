@@ -3,6 +3,7 @@ package com.nicos.libraries_plugins_version_catalogs_example
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -15,6 +16,7 @@ import com.nicos.libraries_plugins_version_catalogs_example.ui.theme.Libraries_P
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContent {
             Libraries_Plugin_Version_Catalogs_ExampleTheme {
                 // A surface container using the 'background' color from the theme
