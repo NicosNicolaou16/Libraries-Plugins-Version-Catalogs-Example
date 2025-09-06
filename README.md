@@ -12,8 +12,8 @@ article below for more details.
 
 Target SDK version: 36 <br />
 Minimum SDK version: 29 <br />
-Kotlin version: 2.2.0 <br />
-Gradle version: 8.11.1 <br />
+Kotlin version: 2.2.10 <br />
+Gradle version: 8.13.0 <br />
 
 # References
 
