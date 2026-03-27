@@ -12,7 +12,7 @@ article below for more details.
 
 Target SDK version: 36 <br />
 Minimum SDK version: 29 <br />
-Kotlin version: 2.3.0 <br />
+Kotlin version: 2.3.20 <br />
 Gradle version: 9.1.0 <br />
 
 # References
