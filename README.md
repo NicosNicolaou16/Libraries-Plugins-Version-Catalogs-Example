@@ -63,7 +63,7 @@ For further reading and documentation, refer to the following:
 ## ⭐ Stargazers
 
 If you find this template useful for your migration, please give it a star!  
-[View Stargazers on GitHub](https://github.com/NicosNicolaou16/Libraries_Plugin_Version_Catalogs_Example/stargazers)
+[View Stargazers on GitHub](https://github.com/NicosNicolaou16/Libraries-Plugins-Version-Catalogs-Example/stargazers)
 
 ## 🙏 Support & Contributions
 
