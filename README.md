@@ -1,27 +1,5 @@
 # Libraries Plugins Version Catalogs Example
 
-This project is an empty template designed to accompany an article on Medium about the new approach
-to managing dependencies—**Version Catalogs**. In this project, Android developers can find a
-collection of commonly used libraries and plugins for their Android projects. You can check out the
-article below for more details.
-
-> [!IMPORTANT]  
-> Check my article :point_right: [Migration Gradle Dependencies to Version Catalogs — libs.versions.toms(Part 3) - Medium](https://medium.com/@nicosnicolaou/migration-gradle-dependencies-to-version-catalogs-libs-versions-toms-part-3-ac3469155109) :point_left: <br />
-
-# Versioning
-
-Target SDK version: 36 <br />
-Minimum SDK version: 29 <br />
-Kotlin version: 2.3.20 <br />
-Gradle version: 9.1.0 <br />
-
-# References
-
-https://developer.android.com/build/migrate-to-catalogs <br />
-
-
-# Libraries Plugins Version Catalogs Example
-
 [![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/nicos_nicolaou)
 [![Site](https://img.shields.io/badge/Site-blue?style=for-the-badge&label=Web)](https://nicosnicolaou16.github.io/)
 [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/nicolaou_nicos)
