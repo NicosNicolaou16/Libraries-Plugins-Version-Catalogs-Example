@@ -28,10 +28,10 @@ In this repository, Android developers can find a curated collection of commonly
 
 ## 🔧 Versioning
 
-- **Target SDK:** **36**
+- **Target SDK:** **37**
 - **Minimum SDK:** **29**
-- **Kotlin Version:** **2.3.20**
-- **Gradle Version:** **9.1.0**
+- **Kotlin Version:** **2.3.21**
+- **Gradle Version:** **9.2.1**
 
 ## 📚 Resources/References
 
