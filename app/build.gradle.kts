@@ -83,32 +83,32 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.animation)
     implementation(libs.androidx.foundation)
-    //Room Database
+    // Room Database
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
-    //Retrofit
+    // Retrofit
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
-    //OkHttp
+    // OkHttp
     implementation(libs.okHttp)
-    //Gson
+    // Gson
     implementation(libs.gson)
-    //Coil
+    // Coil
     implementation(libs.coil)
     // Coil 3
     implementation(libs.coil3)
     implementation(libs.coil3.network.okhttp)
-    //Coroutines
+    // Coroutines
     implementation(libs.coroutine.core)
     implementation(libs.coroutine.android)
-    //Material
+    // Material
     implementation(libs.material)
-    //Hilt
+    // Hilt
     implementation(libs.dagger.android)
     ksp(libs.dagger.compiler)
     ksp(libs.hilt.compiler)
-    //Palette
+    // Palette
     implementation(libs.androidx.palette.ktx)
     // Kotlin Serialization
     implementation(libs.kotlinx.serialization.json)
