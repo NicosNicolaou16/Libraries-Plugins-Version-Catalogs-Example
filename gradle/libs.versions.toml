@@ -72,6 +72,7 @@ gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersi
 coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilVersion" }
 # Coil 3
 coil3 = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil3Version" }
+coil3-network-okhttp = { group = "io.coil-kt.coil3", name = "network-okhttp", version.ref = "coil3Version" }
 # Coroutine
 coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutineVersion" }
 coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutineVersion" }
