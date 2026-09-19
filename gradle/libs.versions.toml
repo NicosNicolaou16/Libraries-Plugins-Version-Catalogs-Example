@@ -15,6 +15,7 @@ animationComposeVersion = "1.12.1"
 foundationComposeVersion = "1.12.1"
 composeBom = "2026.09.00"
 roomVersion = "2.8.5"
+room3Version = "3.0.3"
 kspVersion = "2.3.11"
 retrofitVersion = "3.0.0"
 okHttpVersion = "5.5.0"
@@ -61,6 +62,9 @@ androidx-foundation = { group = "androidx.compose.foundation", name = "foundatio
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+# Room Database 3
+androidx-room3-runtime = { group = "androidx.room3", name = "room3-runtime", version.ref = "room3Version" }
+androidx-room3-compiler = { group = "androidx.room3", name = "room3-compiler", version.ref = "room3Version" }
 # Retrofit
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
