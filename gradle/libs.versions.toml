@@ -1,24 +1,26 @@
 [versions]
-agp = "9.4.0"
-kotlin = "2.4.10"
+agp = "9.4.1"
+kotlin = "2.4.20"
 coreKtx = "1.19.0"
 junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.11.0"
 activityCompose = "1.13.0"
-composeVersion = "1.12.0"
+composeVersion = "1.12.1"
 composeHiltNavigationVersion = "1.4.0"
-composeNavigationVersion = "2.10.0"
-uiComposeVersion = "1.12.0"
-animationComposeVersion = "1.12.0"
-foundationComposeVersion = "1.12.0"
-composeBom = "2026.08.00"
-roomVersion = "2.8.4"
-kspVersion = "2.3.10"
+composeNavigationVersion = "2.10.1"
+uiComposeVersion = "1.12.1"
+animationComposeVersion = "1.12.1"
+foundationComposeVersion = "1.12.1"
+composeBom = "2026.09.00"
+roomVersion = "2.8.5"
+room3Version = "3.0.3"
+kspVersion = "2.3.11"
 retrofitVersion = "3.0.0"
 okHttpVersion = "5.5.0"
 coilVersion = "2.7.0"
+coil3Version = "3.6.3"
 coroutineVersion = "1.11.0"
 materialVersion = "1.14.0"
 hiltVersion = "2.60.1"
@@ -29,7 +31,7 @@ paletteVersion = "1.0.0"
 kotlinSerializationVersion = "1.11.0"
 nav3Core = "1.1.7"
 material3AdaptiveNav3 = "1.3.0"
-imagePickerAndroid = "2.5.6"
+imagePickerAndroid = "2.6.0"
 percentagesWithAnimationComposeVersion = "1.4.0"
 
 [libraries]
@@ -60,6 +62,9 @@ androidx-foundation = { group = "androidx.compose.foundation", name = "foundatio
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+# Room Database 3
+androidx-room3-runtime = { group = "androidx.room3", name = "room3-runtime", version.ref = "room3Version" }
+androidx-room3-compiler = { group = "androidx.room3", name = "room3-compiler", version.ref = "room3Version" }
 # Retrofit
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
@@ -69,6 +74,9 @@ okHttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHtt
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersion" }
 # Coil
 coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilVersion" }
+# Coil 3
+coil3 = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil3Version" }
+coil3-network-okhttp = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coil3Version" }
 # Coroutine
 coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutineVersion" }
 coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutineVersion" }
