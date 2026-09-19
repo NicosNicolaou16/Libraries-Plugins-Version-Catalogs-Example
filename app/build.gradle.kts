@@ -59,6 +59,11 @@ composeCompiler {
     reportsDestination = layout.buildDirectory.dir("compose_compiler")
 }
 
+// This only for this project - don't use it in your project
+configurations.all {
+    exclude(group = "com.intellij", module = "annotations")
+}
+
 dependencies {
 
     //My Library - https://github.com/NicosNicolaou16/ImagePickerAndroid
