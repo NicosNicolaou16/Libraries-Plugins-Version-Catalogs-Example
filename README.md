@@ -32,6 +32,7 @@ In this repository, Android developers can find a curated collection of commonly
 - **Minimum SDK:** **29**
 - **Kotlin Version:** **2.4.20**
 - **AGP Version:** **9.4.1**
+- **Gradle Version:** **9.8.2**
 
 ## 📚 Resources/References
 
